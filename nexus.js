@@ -1,17 +1,16 @@
 (function($) {
-	
 	$.fn.nexus = function(options) {
-
-		// Default parameters.
+	
+	// Default parameters.
         var defauts = {
-            selector: ".position", // Get the class of objects need to be connected.
-            lineHeight: "1", // Set the line height in pixels.
-            lineColor: "#333", // Set the color of connections, can be hexa, rgb or names.
-            lineDash: true, // Set if the connection should be dashed or lined by using true/false.
-			lineCap: "butt", // Set line cap, can be 'round', 'square' or 'butt'.
-            bringBack: true, // Set if connections should be foreground or background as the canvas and boxes will overlap.
-            anchor: "5", // Set the anchors of connections in pixels; positive value if inside the boxes, negative if outside.
-		};
+		selector: ".position", // Get the class of objects need to be connected.
+		lineHeight: "1", // Set the line height in pixels.
+		lineColor: "#333", // Set the color of connections, can be hexa, rgb or names.
+		lineDash: true, // Set if the connection should be dashed or lined by using true/false.
+		lineCap: "butt", // Set line cap, can be 'round', 'square' or 'butt'.
+		bringBack: true, // Set if connections should be foreground or background as the canvas and boxes will overlap.
+		anchor: "5", // Set the anchors of connections in pixels; positive value if inside the boxes, negative if outside.
+	};
 
       	var parametres = $.extend(defauts, options); // We extend the defaults parameters.
 
