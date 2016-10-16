@@ -17,7 +17,7 @@ Make sure to call `nexus.js` after the content just before `</body>`.
 ```
 
 ## Initialize it
-```jQuery
+```JavaScript
 $('#canvas').nexus();		
 ```
 ## Setting up
