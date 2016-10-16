@@ -7,9 +7,9 @@ First, create the canvas element before the boxes.
 ```HTML 
 <canvas id="canvas"></canvas>
 
-<div></div>
-<div></div>
-<div></div>
+<div class="position"></div>
+<div class="position"></div>
+<div class="position"></div>
 ```
 Make sure to call `nexus.js` after the content just before `</body>`.
 ```HTML
