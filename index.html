@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nexus</title>
+	<style>
+		* {
+			margin:0;
+			padding:0;
+			border:none;
+		}
+		article {
+			display:inline-block;
+			background:red;
+			width:200px;
+			height:200px;
+			margin:100px;
+			
+		}
+	</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<canvas id="bibi"></canvas>
+	
+	<article class="position">1</article>
+	<article class="position">2</article>
+	<article class="position">3</article>
+	<article class="position">4</article>
+	<article class="position">5</article>
+	<article class="position"></article>
+	<article class="position"></article>
+	<article class="position"></article>
+	<article class="position"></article>
+	<article class="position"></article>
+
+<script src="nexus.js"></script>
+<script>
+	$('#bibi').nexus({
+		  	selector: ".position", // Get the class of objects need to be connected.
+            lineHeight: "10", // Set the line height in pixels.
+            lineColor: "red", // Set the color of connections, can be hexa, rgb or names.
+            lineDash: true, // Set if the connection should be dashed or lined by using true/false.
+			lineCap: "butt", // Set line cap, can be 'round', 'square' or 'butt'.
+            bringBack: true, // Set if connections should be foreground or background as the canvas and boxes will overlap.
+            anchor: "4", // Set the anchors of connections in pixels; positive value if inside the boxes, negative if outside.
+    });
+</script>
+</body>
+</html>
+
