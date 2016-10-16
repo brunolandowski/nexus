@@ -32,4 +32,4 @@ $('#canvas').nexus({
     anchor: "4", // Set the anchors of connections in pixels; positive value if inside the boxes, negative if outside.
 });
 ```
-:comet::comet::comet: That's it&#8239;!
+:palm_tree::palm_tree::palm_tree: That's it&#8239;!
