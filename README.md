@@ -2,7 +2,6 @@
 Nexus create links between two divs using canvas.
 
 [Download](https://raw.githubusercontent.com/brunolandowski/nexus/master/nexus.js)
-[Demo](http://landowski-test.com/4cent4/)
 ## Install
 First, create the canvas element before the boxes.
 ```HTML 
