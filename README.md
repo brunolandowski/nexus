@@ -1,5 +1,5 @@
 # Nexus
-Nexus create links between two divs using canvas.
+Nexus create links between some divs using canvas.
 
 [Download](https://raw.githubusercontent.com/brunolandowski/nexus/master/nexus.js)
 ## Install
