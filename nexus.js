@@ -60,7 +60,7 @@
 			ctx.moveTo(premier_right - anchor_right, premier_bottom - anchor_right); 
                         ctx.lineTo(deuxieme_left + anchor_right, deuxieme_top + anchor_right);
                         ctx.lineWidth = line_width;
-                        ctx.strokeStyle = line_color
+                        ctx.strokeStyle = line_color;
                         ctx.lineCap = line_cap;
 			ctx.stroke(); // Close the path.
                     }
