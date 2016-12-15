@@ -46,7 +46,7 @@
 			var deuxieme_left = (marg_w + $(this).nextAll().position().left);
                         var deuxieme_top = (marg_h + $(this).nextAll().position().top);
 			var c = document.getElementById(theid);
-			var ctx = c.getContext("2d");
+			var ctx = c.getContext("2d").scale(2,2);
 			var anchorvar = parametres.anchor;
                         var anchor_right = parseFloat(anchorvar);
 
