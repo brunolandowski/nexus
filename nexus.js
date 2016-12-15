@@ -68,7 +68,7 @@
             }
 
 	var canvas = document.getElementById(theid),
-	   	context = canvas.getContext('2d');
+	   	context = canvas.getContext('2d').scale(2,2);
 
             	// Resize the canvas to fill browser window dynamically.
 		window.addEventListener('resize', resizeCanvas, true);
@@ -76,8 +76,11 @@
             	function resizeCanvas() {
                 	var doc_height = $(document).height();
                 	var doc_width = $(window).width();
-                	canvas.width = doc_width;
-                	canvas.height = doc_height;
+			
+                	canvas.width = doc_width * 2;
+                	canvas.height = doc_height * 2;
+			canvas.style.width = doc_width;
+			canvas.style.height = doc_height;
 			drawStuff();
             	}
             
