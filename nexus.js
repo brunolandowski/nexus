@@ -96,8 +96,10 @@
 
             	// Resize the canvas to fill browser window dynamically is window is resized.
 		$(window).resize(function() {
-			canvas.width = window.innerWidth;
-                	canvas.height = window.innerHeight;
+			canvas.width = window.innerWidth * 2;
+                	canvas.height = window.innerHeight * 2;
+			canvas.style.width = window.innerWidth;
+			canvas.style.height = window.innerHeight;
 			resizeCanvas();
 			ironLink();
 		});
