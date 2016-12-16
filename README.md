@@ -1,5 +1,5 @@
 # Nexus
-Nexus create links between some divs using canvas.
+Nexus draw lines between elements by using HTML5 Canvas.
 
 [Download](https://raw.githubusercontent.com/brunolandowski/nexus/master/nexus.js)
 ## Install
@@ -18,18 +18,34 @@ Make sure to call `nexus.js` after the content just before `</body>`.
 
 ## Initialize it
 ```JavaScript
-$('#canvas').nexus();		
+$('#canvas').nexus({
+	// Get the class of objects need to be connected
+	selector: ".position",
+});		
 ```
-## Setting up
+## Options
 ```JavaScript
 $('#canvas').nexus({
-	selector: ".position", // Get the class of objects need to be connected.
-    lineHeight: "10", // Set the line height in pixels.
-    lineColor: "red", // Set the color of connections, can be hexa, rgb or names.
-    lineDash: true, // Set if the connection should be dashed or lined by using true/false.
-	lineCap: "butt", // Set line cap, can be 'round', 'square' or 'butt'.
-    bringBack: true, // Set if connections should be foreground or background as the canvas and boxes will overlap.
-    anchor: "4", // Set the anchors of connections in pixels; positive value if inside the boxes, negative if outside.
+	// Get the class of objects need to be connected
+	selector: ".position",
+
+	// Set the line height in pixels
+    lineHeight: "10", 
+
+    // Set the color of connections, can be hexa, rgb or names
+    lineColor: "red", 
+
+    // Set if the connection should be dashed or lined by using true/false
+    lineDash: true, 
+
+    // Set line cap, can be 'round', 'square' or 'butt'
+	lineCap: "butt",
+
+	// Set if connections should be foreground or background as the canvas and boxes will overlap
+    bringBack: true,
+
+    // Set the anchors of connections in pixels; positive value if inside the boxes, negative if outside 
+    anchor: "4", 
 });
 ```
 :palm_tree::palm_tree::palm_tree: That's it&#8239;!
