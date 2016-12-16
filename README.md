@@ -1,8 +1,7 @@
 # Nexus
 Nexus draw lines between elements by using HTML5 Canvas.
 
-[Download](https://raw.githubusercontent.com/brunolandowski/nexus/master/nexus.js)
-![alt tag](http://i.giphy.com/l2SpT1fFI8myUPwm4.gif)
+[Download](https://raw.githubusercontent.com/brunolandowski/nexus/master/nexus.js)⋅⋅
 [Demo](https://jsfiddle.net/brunolandowski/o0z4L11n/)
 ## Install
 First, create the canvas element before the boxes.
