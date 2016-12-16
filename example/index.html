@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nexus</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+	<canvas id="canvas"></canvas>
+	
+	<article></article>
+	<article></article>
+	<article></article>
+	<article></article>
+	<article></article>
+	<article></article>
+
+<script src="nexus.min.js"></script>
+<script>
+
+$("article").draggable({
+    start: function(event, ui) {
+       $('#canvas').nexus({selector: "article"});
+    },
+    drag: function(event, ui) {
+    	$('#canvas').nexus({selector: "article"});
+    },
+    stop: function(event, ui) {
+    	$('#canvas').nexus({selector: "article"});
+    }
+});
+
+$('#canvas').nexus({
+  	selector: "article", // Get the class of objects need to be connected.
+});
+</script>
+</body>
+</html>
+
