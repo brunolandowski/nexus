@@ -51,4 +51,6 @@ $('#canvas').nexus({
 });
 ```
 :palm_tree::palm_tree::palm_tree: That's it&#8239;!
+
+
 ![alt tag](https://raw.githubusercontent.com/brunolandowski/nexus/master/nexus.jpg)
