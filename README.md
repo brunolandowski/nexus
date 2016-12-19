@@ -1,4 +1,4 @@
-![alt tag](https://raw.githubusercontent.com/brunolandowski/nexus/master/nexus.jpg)
+![alt tag](https://raw.githubusercontent.com/brunolandowski/nexus/master/nexus.png)
 
 # Nexus
 Nexus draw lines between elements by using HTML5 Canvas.
