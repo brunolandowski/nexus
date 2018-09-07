@@ -23,17 +23,17 @@ Make sure to call `nexus.js` after the content just before `</body>`.
 ## Initialize it
 ```JavaScript
 $('#canvas').nexus({
-	// Get the class of objects need to be connected
-	selector: ".position",
+    // Get the class of objects need to be connected
+    selector: ".position",
 });		
 ```
 ## Options
 ```JavaScript
 $('#canvas').nexus({
-	// Get the class of objects need to be connected
-	selector: ".position",
+    // Get the class of objects need to be connected
+    selector: ".position",
 
-	// Set the line height in pixels
+    // Set the line height in pixels
     lineHeight: "10", 
 
     // Set the color of connections, can be hexa, rgb or names
@@ -43,9 +43,9 @@ $('#canvas').nexus({
     lineDash: true, 
 
     // Set line cap, can be 'round', 'square' or 'butt'
-	lineCap: "butt",
+    lineCap: "butt",
 
-	// Set if connections should be foreground or background as the canvas and boxes will overlap
+    // Set if connections should be foreground or background as the canvas and boxes will overlap
     bringBack: true,
 
     // Set the anchors of connections in pixels; positive value if inside the boxes, negative if outside 
